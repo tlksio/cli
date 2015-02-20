@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/tlksio/index/issues"
   },
-  "homepage": "https://github.com/tlksio/index"
+  "homepage": "https://github.com/tlksio/index",
+  "dependencies": {
+    "search-index": "^0.4.15",
+    "libtlks": "git://github.com/tlksio/libtlks#develop"
+  }
 }
