@@ -22,7 +22,10 @@
   },
   "homepage": "https://github.com/tlksio/index",
   "dependencies": {
-    "search-index": "^0.4.15",
-    "libtlks": "git://github.com/tlksio/libtlks#develop"
+    "libtlks": "git://github.com/tlksio/libtlks#develop",
+    "search-index": "^0.4.15"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
   }
 }
