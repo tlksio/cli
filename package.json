@@ -27,7 +27,7 @@
   "dependencies": {
     "libtlks": "git://github.com/tlksio/libtlks#develop",
     "minimist": "^1.1.0",
-    "search-index": "^0.4.15"
+    "request": "^2.53.0"
   },
   "devDependencies": {
     "mocha": "^2.1.0"

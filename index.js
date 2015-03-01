@@ -1,26 +1,38 @@
-var libtlks = require('libtlks');
+var elasticsearch = require('elasticsearch');
+
+var talks = require('libtlks').talk;
 var config = require('./config.json');
 
-// create / open the index
-var options = { indexPath: 'data', logLevel: 'error', logSilent: false };
-var si = require('search-index')(options);
+var client = new elasticsearch.Client({
+    host: 'https://xuxikj44y5:jb06gkb4zo@tlksio-7785082337.eu-west-1.bonsai.io'
+});
 
+// curl -X POST https://xuxikj44y5:jb06gkb4zo@tlksio-7785082337.eu-west-1.bonsai.io/tlksio
 // get all talks from the database
-libtlks.talk.all(config.dburl, function (err, talks) {
+talks.all(config.dburl, function(err, docs) {
     if (err) {
         throw new Error(err);
     }
-    talks.forEach(function (el) {
+    docs.forEach(function(el) {
         var doc = {
             title: el.title
         };
         console.log(doc);
-        // add a talk to the database
-        si.add({ batchName: 'initial', filters: [] }, [doc], function (err) {
-            if (err) {
-                throw new Error(err);
-            }
-            console.log('Indexed: ' + doc.title);
-        });
+        client.index({
+                index: 'tlksio',
+                type: 'talk',
+                id: doc.id,
+                body: {
+                    title: doc.title,
+                    description: doc.description,
+                    tags: doc.tags
+                }
+            },
+            function(error, response) {
+                if (error) {
+                    throw new Error(error);
+                }
+                console.log('Indexed: ' + doc.title);
+            });
     });
 });
