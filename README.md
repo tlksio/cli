@@ -1,2 +1,2 @@
-# index
-tlks.io search index
+# cli
+tlks.io cli utility
