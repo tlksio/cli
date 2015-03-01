@@ -2,7 +2,10 @@
   "name": "index",
   "version": "0.0.1",
   "description": "tlks.io search index",
-  "main": "index.js",
+  "main": "cli.js",
+  "bin": {
+      "tlksio": "cli.js"
+  },
   "scripts": {
     "test": "mocha"
   },
