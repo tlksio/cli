@@ -1,3 +1,6 @@
+reindex:
+	node . --reindex
+
 clean:
 	rm -rf data
 
