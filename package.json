@@ -4,7 +4,7 @@
   "description": "tlks.io search index",
   "main": "cli.js",
   "bin": {
-      "tlksio": "cli.js"
+    "tlksio": "cli.js"
   },
   "scripts": {
     "test": "mocha"
@@ -26,6 +26,7 @@
   "homepage": "https://github.com/tlksio/index",
   "dependencies": {
     "libtlks": "git://github.com/tlksio/libtlks#develop",
+    "minimist": "^1.1.0",
     "search-index": "^0.4.15"
   },
   "devDependencies": {
