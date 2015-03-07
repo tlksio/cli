@@ -1,0 +1,35 @@
+{
+  "name": "index",
+  "version": "0.0.1",
+  "description": "tlks.io search index",
+  "main": "cli.js",
+  "bin": {
+    "tlksio": "cli.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tlksio/index.git"
+  },
+  "keywords": [
+    "tlksio",
+    "search",
+    "index"
+  ],
+  "author": "Raül Pérez <repejota@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tlksio/index/issues"
+  },
+  "homepage": "https://github.com/tlksio/index",
+  "dependencies": {
+    "libtlks": "git://github.com/tlksio/libtlks#develop",
+    "minimist": "^1.1.0",
+    "request": "^2.53.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
