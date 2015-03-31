@@ -1,28 +1,8 @@
-cli
-===
+# cli
 
-tlks.io cli util
+tlks.io cli utiliy.
 
-## Table of contents
-
-- [Build status](#build-status)
-- [Quick start](#quick-start)
-- [Bugs and feature requests](#bugs-and-feature-requests)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [Versioning](#versioning)
-- [Creators](#creators)
-- [Copyright and license](#copyright-and-license)
-
-## Build status
-
-* Branch Master : [![Build Status Master](https://travis-ci.org/tlksio/cli.svg?branch=master)](https://travis-ci.org/tlksio/cli)
-
-* Branch Develop : [![Build Status Develop](https://travis-ci.org/tlksio/cli.svg?branch=develop)](https://travis-ci.org/tlksio/cli)
-
-## Quick start
-
-todo
+[TOC]
 
 ## Bugs and feature requests
 
@@ -31,10 +11,6 @@ Have a bug or a feature request? Please first read the
 and search for existing and closed issues. If your problem or idea is not
 addressed yet,
 [please open a new issue](https://github.com/tlksio/cli/issues/new).
-
-## Documentation
-
-todo
 
 ## Contributing
 
@@ -47,7 +23,7 @@ Moreover, if your pull request contains patches or features, you must include
 relevant unit tests.
 
 Editor preferences are available in the
-[editor config](https://github.com/tlksio/libtlks/blob/master/.editorconfig)
+[editor config](https://github.com/tlksio/cli/blob/master/.editorconfig)
 for easy use in common text editors. Read more and download plugins at
 <http://editorconfig.org>.
 
@@ -62,8 +38,8 @@ up, but we'll adhere to those rules whenever possible.
 
 **Raül Pérez**
 
-- <https://twitter.com/repejota>
-- <https://github.com/repejota>
+* https://twitter.com/repejota
+* https://github.com/repejota
 
 ## Copyright and license
 
