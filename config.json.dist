@@ -1,3 +1,4 @@
 {
-  "dburl": "xxxxxx"
+  "dburl": "xxxxxx",
+  "elasticsearch": "xxxxxxxxxxxxxx"
 }
