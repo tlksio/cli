@@ -1,13 +1,13 @@
 {
   "name": "index",
   "version": "0.0.2",
-  "description": "tlks.io search index",
+  "description": "tlks.io cli utility",
   "main": "cli.js",
   "bin": {
     "tlksio": "cli.js"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "make cover"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,8 @@
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-jshint": "^1.9.4",
-    "mocha": "^2.2.1"
+    "istanbul": "^0.3.13",
+    "mocha": "^2.2.1",
+    "should": "^5.2.0"
   }
 }
