@@ -9,13 +9,10 @@ lint:
 	./node_modules/.bin/gulp jshint
 
 clean:
-	# Uninmplemented
+	./node_modules/.bin/gulp clean
 
 dist:
 	# Uninmplemented
-
-dist-clean:
-	rm -rf node_modules
 
 all: lint test dist
 
