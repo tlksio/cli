@@ -30,6 +30,7 @@
     "request": "^2.53.0"
   },
   "devDependencies": {
+    "del": "^1.1.1",
     "gulp": "^3.8.11",
     "gulp-jshint": "^1.9.4",
     "istanbul": "^0.3.13",
