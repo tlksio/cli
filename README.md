@@ -1,28 +1,12 @@
-cli
-===
+# cli
 
-tlks.io cli util
+1. [Bugs and feature requests](https://github.com/tlksio/chef#bugs-and-feature-requests)
+2. [Contributing](https://github.com/tlksio/chef#contributing)
+3. [Versioning](https://github.com/tlksio/chef#versioning)
+4. [Creators](https://github.com/tlksio/chef#creators)
+5. [Copyright and license](https://github.com/tlksio/chef#copyright-and-license)
 
-## Table of contents
-
-- [Build status](#build-status)
-- [Quick start](#quick-start)
-- [Bugs and feature requests](#bugs-and-feature-requests)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [Versioning](#versioning)
-- [Creators](#creators)
-- [Copyright and license](#copyright-and-license)
-
-## Build status
-
-* Branch Master : [![Build Status Master](https://travis-ci.org/tlksio/cli.svg?branch=master)](https://travis-ci.org/tlksio/cli)
-
-* Branch Develop : [![Build Status Develop](https://travis-ci.org/tlksio/cli.svg?branch=develop)](https://travis-ci.org/tlksio/cli)
-
-## Quick start
-
-todo
+tlks.io cli utiliy.
 
 ## Bugs and feature requests
 
@@ -34,7 +18,8 @@ addressed yet,
 
 ## Documentation
 
-todo
+Please check the whole Project Documentation repo at:
+[tlks.io documentation](https://github.com/tlksio/docs)
 
 ## Contributing
 
@@ -47,7 +32,7 @@ Moreover, if your pull request contains patches or features, you must include
 relevant unit tests.
 
 Editor preferences are available in the
-[editor config](https://github.com/tlksio/libtlks/blob/master/.editorconfig)
+[editor config](https://github.com/tlksio/cli/blob/master/.editorconfig)
 for easy use in common text editors. Read more and download plugins at
 <http://editorconfig.org>.
 
@@ -62,8 +47,8 @@ up, but we'll adhere to those rules whenever possible.
 
 **Raül Pérez**
 
-- <https://twitter.com/repejota>
-- <https://github.com/repejota>
+* https://twitter.com/repejota
+* https://github.com/repejota
 
 ## Copyright and license
 

@@ -1,6 +1,5 @@
-reindex:
-	node . --reindex
-
 index: clean
 	node ./index.js
 
+dist-clean:
+	rm -rf node_modules

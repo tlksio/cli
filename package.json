@@ -1,6 +1,6 @@
 {
   "name": "index",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "tlks.io search index",
   "main": "cli.js",
   "bin": {
@@ -30,6 +30,7 @@
     "request": "^2.53.0"
   },
   "devDependencies": {
-    "mocha": "^2.1.0"
+    "gulp": "^3.8.11",
+    "mocha": "^2.2.1"
   }
 }
