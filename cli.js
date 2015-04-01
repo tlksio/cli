@@ -57,4 +57,4 @@ else if (argv.version) {
     console.log('   --reindex   Build the index.');
     console.log('   --version   Show version number.');
     console.log('   --help      Show this help message.');
-};
+}
