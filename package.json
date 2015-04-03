@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/tlksio/cli",
   "dependencies": {
-    "librank": "file:../../../../../tmp/npm-7059-4fcfa086/git-cache-aba5bdabc562/2617be1e21e7a554eaef2087b4748d50bb184f01",
+    "librank": "git://github.com/tlksio/librank#develop",
     "libtlks": "git://github.com/tlksio/libtlks#develop",
     "minimist": "^1.1.0",
     "moment": "^2.9.0",
