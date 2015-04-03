@@ -1,6 +1,6 @@
 {
-  "name": "index",
-  "version": "0.0.3",
+  "name": "cli",
+  "version": "0.0.4",
   "description": "tlks.io cli utility",
   "main": "cli.js",
   "bin": {
@@ -11,22 +11,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tlksio/index.git"
+    "url": "https://github.com/tlksio/cli.git"
   },
   "keywords": [
     "tlksio",
     "search",
-    "index"
+    "cli"
   ],
   "author": "Raül Pérez <repejota@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tlksio/index/issues"
+    "url": "https://github.com/tlksio/cli/issues"
   },
-  "homepage": "https://github.com/tlksio/index",
+  "homepage": "https://github.com/tlksio/cli",
   "dependencies": {
+    "librank": "git://github.com/tlksio/librank#develop",
     "libtlks": "git://github.com/tlksio/libtlks#develop",
     "minimist": "^1.1.0",
+    "moment": "^2.9.0",
     "request": "^2.53.0"
   },
   "devDependencies": {
