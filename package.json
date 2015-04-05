@@ -1,6 +1,6 @@
 {
   "name": "cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "tlks.io cli utility",
   "main": "cli.js",
   "bin": {
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/tlksio/cli",
   "dependencies": {
+    "debug": "^2.1.3",
     "librank": "git://github.com/tlksio/librank#develop",
     "libtlks": "git://github.com/tlksio/libtlks#develop",
     "minimist": "^1.1.0",
