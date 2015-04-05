@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/tlksio/cli",
   "dependencies": {
+    "debug": "^2.1.3",
     "librank": "git://github.com/tlksio/librank#develop",
     "libtlks": "git://github.com/tlksio/libtlks#develop",
     "minimist": "^1.1.0",
